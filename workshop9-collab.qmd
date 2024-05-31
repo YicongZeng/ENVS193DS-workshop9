@@ -12,19 +12,17 @@ library(ggeffects) # Loading for models
 library(here) # loading for easy file pathing
 ```
 
-
-
 reading in data
 
 ```{r}
 data(pie_crab) # reading in plum island ecosystem crab data set from package
 ```
 
+exploratory vis
 
-
-
-
-
-
-
-
+```{r}
+ggplot(data = pie_crab, aes(x = latitude, y = size)) + # set up plot
+  geom_point(color = "orange") + # orange scatterplot
+  labs(x = "Latitude", y = "Size (millimeters)") + # update axis labels
+  theme_minimal()
+```

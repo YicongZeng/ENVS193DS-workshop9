@@ -1,0 +1,13 @@
+---
+title: "workshop9-collab"
+format: html
+---
+
+load libraries
+
+```{r}
+library(tidyverse) # Loading wrangling and plotting packages
+library(lterdatasampler) # Loading for data access
+library(ggeffects) # Loading for models
+library(here) # loading for easy file pathing
+```

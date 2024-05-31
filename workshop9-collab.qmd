@@ -27,7 +27,6 @@ ggplot(data = pie_crab, aes(x = latitude, y = size)) + # set up plot
   theme_minimal()
 ```
 
-
 writing a model
 
 ```{r}
@@ -38,3 +37,16 @@ par(mfrow=c(2, 2))
 plot(crab_model)
 ```
 
+interpret model
+
+```{r}
+summary(crab_model) # check results
+```
+
+Slope: 0.49 +/- 0.034
+
+Y-Intercept: -3.6 +/- 1.27
+
+For every one unit increase in latitude, we expect to see an increase in crab size of 0.49 +/- 0.034 millimeters.
+
+Model statistics: F(1, 390) = 208.5, p \< 0.001, alpha = 0.05, R&2 = 0.35.

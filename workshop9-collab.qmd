@@ -11,3 +11,20 @@ library(lterdatasampler) # Loading for data access
 library(ggeffects) # Loading for models
 library(here) # loading for easy file pathing
 ```
+
+
+
+reading in data
+
+```{r}
+data(pie_crab) # reading in plum island ecosystem crab data set from package
+```
+
+
+
+
+
+
+
+
+

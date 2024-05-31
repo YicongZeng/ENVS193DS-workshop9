@@ -50,3 +50,11 @@ Y-Intercept: -3.6 +/- 1.27
 For every one unit increase in latitude, we expect to see an increase in crab size of 0.49 +/- 0.034 millimeters.
 
 Model statistics: F(1, 390) = 208.5, p \< 0.001, alpha = 0.05, R&2 = 0.35.
+
+General tips for collaboration
+1. Always save and commit and push !!!!
+2. Talk to your collaborators
+3. Pull changes!!! otherwise you will get a "merge conflice"
+
+order of operation
+pull, change, save, stage, commit, push
